@@ -92,7 +92,7 @@ Build and run the project on an Android device or emulator.
 - **HomeViewModel:** ViewModel for managing home screen state.
 - **HomeScreenState:** Sealed class for representing home screen state.
 - **HomeScreen:** Composable function for rendering the home screen.
-- **ProfileHeader:** Composable function for rendering the profile header.
+- **ProfileHeader:** Compo![img.png](img.png)sable function for rendering the profile header.
 - **RepositoryList:** Composable function for rendering repository lists.
 - **TopAppBarUI:** Composable function for rendering the top app bar.
 
