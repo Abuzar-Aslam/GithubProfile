@@ -1,0 +1,51 @@
+query UserProfile($username: String!) {
+    user(login: $username) {
+        id
+        avatarUrl
+        company
+        name
+        login
+        email
+        followers {
+            totalCount
+        }
+        following {
+            totalCount
+        }
+        pinnedItems(first: 3) {
+            nodes {
+                ... on Repository {
+                    id
+                    name
+                    description
+                    stargazerCount
+                    primaryLanguage {
+                        name
+                    }
+                }
+            }
+        }
+        topRepositories(first: 10, orderBy: {field: CREATED_AT, direction: DESC}) {
+            nodes {
+                id
+                name
+                description
+                stargazerCount
+                primaryLanguage {
+                    name
+                }
+            }
+        }
+        starredRepositories(first: 10) {
+            nodes {
+                id
+                name
+                description
+                stargazerCount
+                primaryLanguage {
+                    name
+                }
+            }
+        }
+    }
+}

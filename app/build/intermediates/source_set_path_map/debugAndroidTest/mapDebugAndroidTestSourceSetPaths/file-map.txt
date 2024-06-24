@@ -1,0 +1,4 @@
+home.assignemnt.githubprofile.test.app-androidTest-0 /Users/abuzaraslam/GithubProfile/app/build/generated/res/resValues/androidTest/debug
+home.assignemnt.githubprofile.test.app-mergeDebugAndroidTestResources-1 /Users/abuzaraslam/GithubProfile/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+home.assignemnt.githubprofile.test.app-mergeDebugAndroidTestResources-2 /Users/abuzaraslam/GithubProfile/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+home.assignemnt.githubprofile.test.app-debugAndroidTest-3 /Users/abuzaraslam/GithubProfile/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

@@ -21,4 +21,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "GitHubProfile"
 include(":app")
- 
+include(":data")
+include(":presentation")
+include(":domain")
+include(":util")
+include(":design")

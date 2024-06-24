@@ -1,0 +1,13 @@
+<resources>
+    <string name="profile_screen_title">Profile</string>
+    <string name="profile_screen_followers">%1$d followers</string>
+    <string name="profile_screen_following">%1$d following</string>
+    <string name="profile_screen_error_message">Failed to load data</string>
+    <string name="error_screen_title">Error</string>
+    <string name="error_screen_message">Please check your internet connection</string>
+    <string name="error_screen_button_text">TAP TO RETRY</string>
+    <string name="profile_screen_pinned_section_title">Pinned</string>
+    <string name="profile_screen_top_repository_section_title">Top Repositories</string>
+    <string name="profile_screen_starred_repository_section_title">Starred Repositories</string>
+    <string name="profile_screen_repository_section_view_all_label">View all</string>
+</resources>
