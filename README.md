@@ -12,7 +12,6 @@ This Android application fetches and displays GitHub user profile information us
 - Implements pull-to-refresh to update data.
 - Caches data for offline access and performance improvement.
 
-
 ## Technologies Used
 
 - **Kotlin:** The primary language used.
@@ -31,27 +30,33 @@ This Android application fetches and displays GitHub user profile information us
 
 ## Project Structure
 
+- **app:** Contains main App class, MainActivity, and navigation.
 - **data:** Contains data sources, repositories, and network configurations.
 - **domain:** Contains domain models and use cases.
 - **presentation:** Contains ViewModels, UI components, and utility classes.
+- **network:** Contains GraphQL client, HttpClientFactory, request interceptors, GraphQL query, and schema.
+- **design:** Contains spacing, vector images, colors, typography, and application theme.
 
 ## Installation
 
 **Clone the repository:**
 
-- bash
-- Copy code
-- git clone https://github.com/Abuzar-Aslam/GithubProfile.git
-- cd github-profile-app
+```bash
+git clone https://github.com/Abuzar-Aslam/GithubProfile.git
+cd github-profile-app
+```
 
 **Open the project in Android Studio.**
 
-- Set up your GitHub API key:
-- Open system level gradle.properties file and add your API key:
+**Set up your GitHub API key:**
 
-- Copy code
-- apiKey=YOUR_GITHUB_API_KEY
-- Build and run the project on an Android device or emulator.
+Open the system-level `gradle.properties` file and add your API key:
+
+```properties
+apiKey=YOUR_GITHUB_API_KEY
+```
+
+Build and run the project on an Android device or emulator.
 
 ## Usage
 
@@ -59,10 +64,9 @@ This Android application fetches and displays GitHub user profile information us
 - You can pull down on the screen to refresh the data.
 - The data is cached and will be available offline for a day.
 
-
 ## Code Documentation
 
-# Network Layer:
+### Network Layer:
 
 - **GraphQLClient:** Handles GraphQL queries with caching and error handling.
 - **HttpClientFactory:** Initializes OkHttpClient with interceptors.
@@ -70,20 +74,20 @@ This Android application fetches and displays GitHub user profile information us
 - **InvalidProxyPortInterceptor:** Handles invalid proxy port issues.
 - **FailedRequestInterceptor:** Handles failed requests and logs errors.
 
-# Data Layer:
+### Data Layer:
 
 - **UserProfileRepositoryImpl:** Implementation of the user profile repository.
 - **UserProfileCall:** GraphQL operation for fetching user profile data.
 - **UserProfileQueryMapper:** Maps GraphQL query results to domain models.
 
-# Domain Layer:
+### Domain Layer:
 
 - **UserProfileModel:** Domain model for user profile.
 - **RepositoryModel:** Domain model for repositories.
 - **UserProfileUseCase:** Use case for fetching user profile data.
-- **UserprofileRepository:** Define the repository data points for data Module 
+- **UserProfileRepository:** Define the repository data points for the data module.
 
-# Presentation Layer:
+### Presentation Layer:
 
 - **HomeViewModel:** ViewModel for managing home screen state.
 - **HomeScreenState:** Sealed class for representing home screen state.
@@ -92,19 +96,22 @@ This Android application fetches and displays GitHub user profile information us
 - **RepositoryList:** Composable function for rendering repository lists.
 - **TopAppBarUI:** Composable function for rendering the top app bar.
 
+### Design Layer:
+
+- **Spacing:** Defines standard spacing values used throughout the application.
+- **Dimens:** Defines dimension values for consistent dimensions in the UI.
+- **Colors:** Defines color palette for the application.
+- **Typography:** Defines text styles used throughout the application.
+- **Theme:** Provides theming support for the application.
+
 ## Points of Improvement
 
 - **Error Handling:** Improve error handling in the UI to display user-friendly messages.
-- **Testing:** Add unit tests and UI tests to ensure robustness and reliability.
-- **Configuration:** Externalize the GitHub username to be fetched, possibly via a settings screen.
-- **Navigation:** Implement navigation components to manage different screens and user flows.
-- **Theming:** Enhance theming support for better user experience in both light and dark modes.
-- **Performance:** Optimize data fetching and caching strategies for better performance and reduced latency.
-- **Security:** Securely manage API keys and sensitive information using a more robust approach than plain text in local.properties.
 
 ## Contributing
 
 If you wish to contribute to this project, please fork the repository and submit pull requests.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
