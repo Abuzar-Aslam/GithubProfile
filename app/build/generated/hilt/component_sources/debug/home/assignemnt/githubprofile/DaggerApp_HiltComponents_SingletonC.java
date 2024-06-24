@@ -30,13 +30,14 @@ import dagger.internal.LazyClassKeyMap;
 import dagger.internal.Preconditions;
 import dagger.internal.Provider;
 import home.assignemnt.data.di.DataModule;
-import home.assignemnt.data.di.DataModule_ProvideAuthorizationInterceptorFactory;
-import home.assignemnt.data.di.DataModule_ProvideGraphQLClientFactory;
 import home.assignemnt.data.di.DataModule_ProvideUserProfileRepositoryFactory;
-import home.assignemnt.data.network.GraphQLClient;
-import home.assignemnt.data.network.GraphQLInterceptor;
 import home.assignemnt.domain.repository.UserProfileRepository;
 import home.assignemnt.domain.usecases.UserProfileUseCase;
+import home.assignemnt.network.di.NetworkModule;
+import home.assignemnt.network.di.NetworkModule_ProvideAuthorizationInterceptorFactory;
+import home.assignemnt.network.di.NetworkModule_ProvideGraphQLClientFactory;
+import home.assignemnt.network.graphqlclient.GraphQLClient;
+import home.assignemnt.network.graphqlclient.GraphQLInterceptor;
 import home.assignemnt.presentation.HomeViewModel;
 import home.assignemnt.presentation.HomeViewModel_HiltModules;
 import java.util.Collections;
@@ -64,6 +65,8 @@ public final class DaggerApp_HiltComponents_SingletonC {
 
     private DataModule dataModule;
 
+    private NetworkModule networkModule;
+
     private Builder() {
     }
 
@@ -77,12 +80,20 @@ public final class DaggerApp_HiltComponents_SingletonC {
       return this;
     }
 
+    public Builder networkModule(NetworkModule networkModule) {
+      this.networkModule = Preconditions.checkNotNull(networkModule);
+      return this;
+    }
+
     public App_HiltComponents.SingletonC build() {
       Preconditions.checkBuilderRequirement(applicationContextModule, ApplicationContextModule.class);
       if (dataModule == null) {
         this.dataModule = new DataModule();
       }
-      return new SingletonCImpl(applicationContextModule, dataModule);
+      if (networkModule == null) {
+        this.networkModule = new NetworkModule();
+      }
+      return new SingletonCImpl(applicationContextModule, dataModule, networkModule);
     }
   }
 
@@ -557,6 +568,8 @@ public final class DaggerApp_HiltComponents_SingletonC {
   private static final class SingletonCImpl extends App_HiltComponents.SingletonC {
     private final DataModule dataModule;
 
+    private final NetworkModule networkModule;
+
     private final ApplicationContextModule applicationContextModule;
 
     private final SingletonCImpl singletonCImpl = this;
@@ -568,10 +581,11 @@ public final class DaggerApp_HiltComponents_SingletonC {
     private Provider<UserProfileRepository> provideUserProfileRepositoryProvider;
 
     private SingletonCImpl(ApplicationContextModule applicationContextModuleParam,
-        DataModule dataModuleParam) {
+        DataModule dataModuleParam, NetworkModule networkModuleParam) {
       this.dataModule = dataModuleParam;
+      this.networkModule = networkModuleParam;
       this.applicationContextModule = applicationContextModuleParam;
-      initialize(applicationContextModuleParam, dataModuleParam);
+      initialize(applicationContextModuleParam, dataModuleParam, networkModuleParam);
 
     }
 
@@ -581,7 +595,7 @@ public final class DaggerApp_HiltComponents_SingletonC {
 
     @SuppressWarnings("unchecked")
     private void initialize(final ApplicationContextModule applicationContextModuleParam,
-        final DataModule dataModuleParam) {
+        final DataModule dataModuleParam, final NetworkModule networkModuleParam) {
       this.provideAuthorizationInterceptorProvider = DoubleCheck.provider(new SwitchingProvider<GraphQLInterceptor>(singletonCImpl, 2));
       this.provideGraphQLClientProvider = DoubleCheck.provider(new SwitchingProvider<GraphQLClient>(singletonCImpl, 1));
       this.provideUserProfileRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<UserProfileRepository>(singletonCImpl, 0));
@@ -623,11 +637,11 @@ public final class DaggerApp_HiltComponents_SingletonC {
           case 0: // home.assignemnt.domain.repository.UserProfileRepository 
           return (T) DataModule_ProvideUserProfileRepositoryFactory.provideUserProfileRepository(singletonCImpl.dataModule, singletonCImpl.provideGraphQLClientProvider.get());
 
-          case 1: // home.assignemnt.data.network.GraphQLClient 
-          return (T) DataModule_ProvideGraphQLClientFactory.provideGraphQLClient(singletonCImpl.dataModule, ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule), singletonCImpl.setOfGraphQLInterceptor());
+          case 1: // home.assignemnt.network.graphqlclient.GraphQLClient 
+          return (T) NetworkModule_ProvideGraphQLClientFactory.provideGraphQLClient(singletonCImpl.networkModule, ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule), singletonCImpl.setOfGraphQLInterceptor());
 
-          case 2: // java.util.Set<home.assignemnt.data.network.GraphQLInterceptor> home.assignemnt.data.di.DataModule#provideAuthorizationInterceptor 
-          return (T) DataModule_ProvideAuthorizationInterceptorFactory.provideAuthorizationInterceptor(singletonCImpl.dataModule);
+          case 2: // java.util.Set<home.assignemnt.network.graphqlclient.GraphQLInterceptor> home.assignemnt.network.di.NetworkModule#provideAuthorizationInterceptor 
+          return (T) NetworkModule_ProvideAuthorizationInterceptorFactory.provideAuthorizationInterceptor(singletonCImpl.networkModule);
 
           default: throw new AssertionError(id);
         }

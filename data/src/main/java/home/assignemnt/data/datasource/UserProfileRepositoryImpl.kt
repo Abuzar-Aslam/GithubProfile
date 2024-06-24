@@ -1,6 +1,6 @@
 package home.assignemnt.data.datasource
 
-import home.assignemnt.data.network.GraphQLClient
+import home.assignemnt.network.graphqlclient.GraphQLClient
 import home.assignemnt.domain.model.UserProfileModel
 import home.assignemnt.domain.repository.UserProfileRepository
 

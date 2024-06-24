@@ -16,36 +16,36 @@
 12-->[:data] /Users/abuzaraslam/GithubProfile/data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-64
 13
 14    <queries>
-14-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:7:5-13:15
+14-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:7:5-13:15
 15        <intent>
-15-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:8:9-12:18
+15-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:8:9-12:18
 16            <action android:name="android.intent.action.CREATE_DOCUMENT" />
-16-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:9:13-76
-16-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:9:21-73
+16-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:9:13-76
+16-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:9:21-73
 17
 18            <data android:mimeType="*/*" />
-18-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:11:13-44
-18-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:11:19-41
+18-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:11:13-44
+18-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:11:19-41
 19        </intent>
 20    </queries>
 21
 22    <uses-permission
-22-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:15:5-17:38
+22-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:15:5-17:38
 23        android:name="android.permission.WAKE_LOCK"
-23-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:16:9-52
+23-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:16:9-52
 24        android:maxSdkVersion="25" />
-24-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:17:9-35
+24-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:17:9-35
 25
 26    <permission
-26-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/dd929583ff2be5cd19a14d16a97a2da6/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+26-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/ff3e840c9a26c621fc0b0fa328820252/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 27        android:name="home.assignemnt.githubprofile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-27-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/dd929583ff2be5cd19a14d16a97a2da6/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+27-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/ff3e840c9a26c621fc0b0fa328820252/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 28        android:protectionLevel="signature" />
-28-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/dd929583ff2be5cd19a14d16a97a2da6/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+28-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/ff3e840c9a26c621fc0b0fa328820252/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 29
 30    <uses-permission android:name="home.assignemnt.githubprofile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-30-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/dd929583ff2be5cd19a14d16a97a2da6/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
-30-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/dd929583ff2be5cd19a14d16a97a2da6/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+30-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/ff3e840c9a26c621fc0b0fa328820252/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/ff3e840c9a26c621fc0b0fa328820252/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 31
 32    <application
 32-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:5:5-27:19
@@ -54,7 +54,7 @@
 34        android:allowBackup="true"
 34-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:7:9-35
 35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-35-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/dd929583ff2be5cd19a14d16a97a2da6/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+35-->[androidx.core:core:1.13.1] /Users/abuzaraslam/.gradle/caches/transforms-4/ff3e840c9a26c621fc0b0fa328820252/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 36        android:dataExtractionRules="@xml/data_extraction_rules"
 36-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:8:9-65
 37        android:debuggable="true"
@@ -69,172 +69,171 @@
 42-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:12:9-54
 43        android:supportsRtl="true"
 43-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:13:9-35
-44        android:testOnly="true"
-45        android:theme="@style/Theme.GitHubProfile" >
-45-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:14:9-51
-46        <activity
-46-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:16:9-26:20
-47            android:name="home.assignemnt.githubprofile.MainActivity"
-47-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:17:13-41
-48            android:exported="true"
-48-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:18:13-36
-49            android:label="@string/app_name"
-49-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:19:13-45
-50            android:theme="@style/Theme.GitHubProfile" >
-50-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:20:13-55
-51            <intent-filter>
-51-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:21:13-25:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:22:17-69
-52-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:22:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:24:17-77
-54-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:24:27-74
-55            </intent-filter>
-56        </activity>
-57        <activity
-57-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:21:9-26:52
-58            android:name="com.chuckerteam.chucker.internal.ui.MainActivity"
-58-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:22:13-76
-59            android:label="@string/chucker_name"
-59-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:23:13-49
-60            android:launchMode="singleTask"
-60-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:24:13-44
-61            android:taskAffinity="com.chuckerteam.chucker.task"
-61-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:25:13-64
-62            android:theme="@style/Chucker.Theme" />
-62-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:26:13-49
-63        <activity
-63-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:27:9-30:52
-64            android:name="com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity"
-64-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:28:13-95
-65            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
-65-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:29:13-90
-66            android:theme="@style/Chucker.Theme" />
-66-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:30:13-49
-67
-68        <service
-68-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:32:9-35:72
-69            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseService"
-69-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:33:13-89
-70            android:exported="false"
-70-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:34:13-37
-71            android:permission="android.permission.BIND_JOB_SERVICE" />
-71-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:35:13-69
-72
-73        <receiver
-73-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:37:9-39:40
-74            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseJobIntentServiceReceiver"
-74-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:38:13-106
-75            android:exported="false" />
-75-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:39:13-37
-76
-77        <provider
-77-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:41:9-49:20
-78            android:name="com.chuckerteam.chucker.internal.support.ChuckerFileProvider"
-78-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:42:13-88
-79            android:authorities="home.assignemnt.githubprofile.com.chuckerteam.chucker.provider"
-79-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:43:13-84
-80            android:exported="false"
-80-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:44:13-37
-81            android:grantUriPermissions="true" >
-81-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:45:13-47
-82            <meta-data
-82-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:46:13-48:66
-83                android:name="android.support.FILE_PROVIDER_PATHS"
-83-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:47:17-67
-84                android:resource="@xml/chucker_provider_paths" />
-84-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/AndroidManifest.xml:48:17-63
-85        </provider>
-86
-87        <activity
-87-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/01fe0c1eb67992cfdf74abdf97961056/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
-88            android:name="androidx.compose.ui.tooling.PreviewActivity"
-88-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/01fe0c1eb67992cfdf74abdf97961056/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
-89            android:exported="true" />
-89-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/01fe0c1eb67992cfdf74abdf97961056/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
-90        <activity
-90-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/1f173f53c236e00dc6712ff6e705f54d/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:23:9-25:39
-91            android:name="androidx.activity.ComponentActivity"
-91-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/1f173f53c236e00dc6712ff6e705f54d/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:24:13-63
-92            android:exported="true" />
-92-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/1f173f53c236e00dc6712ff6e705f54d/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:25:13-36
-93
-94        <provider
-94-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/793d3b7cef57f69c2b5270b5a7ffa2fa/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-95            android:name="androidx.startup.InitializationProvider"
-95-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/793d3b7cef57f69c2b5270b5a7ffa2fa/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-96            android:authorities="home.assignemnt.githubprofile.androidx-startup"
-96-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/793d3b7cef57f69c2b5270b5a7ffa2fa/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-97            android:exported="false" >
-97-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/793d3b7cef57f69c2b5270b5a7ffa2fa/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-98            <meta-data
-98-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/793d3b7cef57f69c2b5270b5a7ffa2fa/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-99-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/793d3b7cef57f69c2b5270b5a7ffa2fa/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-100                android:value="androidx.startup" />
-100-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/793d3b7cef57f69c2b5270b5a7ffa2fa/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-101            <meta-data
-101-->[androidx.lifecycle:lifecycle-process:2.8.2] /Users/abuzaraslam/.gradle/caches/transforms-4/fdcdaa9b389f259492db6a85b8a4ac3a/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:29:13-31:52
-102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-102-->[androidx.lifecycle:lifecycle-process:2.8.2] /Users/abuzaraslam/.gradle/caches/transforms-4/fdcdaa9b389f259492db6a85b8a4ac3a/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:30:17-78
-103                android:value="androidx.startup" />
-103-->[androidx.lifecycle:lifecycle-process:2.8.2] /Users/abuzaraslam/.gradle/caches/transforms-4/fdcdaa9b389f259492db6a85b8a4ac3a/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:31:17-49
-104            <meta-data
-104-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
-105                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
-106                android:value="androidx.startup" />
-106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
-107        </provider>
-108
-109        <service
-109-->[androidx.room:room-runtime:2.5.2] /Users/abuzaraslam/.gradle/caches/transforms-4/975862ff565542a0a6b0d8ea545c7011/transformed/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
-110            android:name="androidx.room.MultiInstanceInvalidationService"
-110-->[androidx.room:room-runtime:2.5.2] /Users/abuzaraslam/.gradle/caches/transforms-4/975862ff565542a0a6b0d8ea545c7011/transformed/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
-111            android:directBootAware="true"
-111-->[androidx.room:room-runtime:2.5.2] /Users/abuzaraslam/.gradle/caches/transforms-4/975862ff565542a0a6b0d8ea545c7011/transformed/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
-112            android:exported="false" />
-112-->[androidx.room:room-runtime:2.5.2] /Users/abuzaraslam/.gradle/caches/transforms-4/975862ff565542a0a6b0d8ea545c7011/transformed/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
-113
-114        <receiver
-114-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
-115            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-115-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
-116            android:directBootAware="false"
-116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
-117            android:enabled="true"
-117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
-118            android:exported="true"
-118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
-119            android:permission="android.permission.DUMP" >
-119-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
-120            <intent-filter>
-120-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
-121                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
-122            </intent-filter>
-123            <intent-filter>
-123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
-124                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
-125            </intent-filter>
-126            <intent-filter>
-126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
-127                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
-128            </intent-filter>
-129            <intent-filter>
-129-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
-130                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-130-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-130-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/60d16d6d7eb1ffea4a54afe2fecfd25d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
-131            </intent-filter>
-132        </receiver>
-133    </application>
-134
-135</manifest>
+44        android:theme="@style/Theme.GitHubProfile" >
+44-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:14:9-51
+45        <activity
+45-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:16:9-26:20
+46            android:name="home.assignemnt.githubprofile.MainActivity"
+46-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:17:13-41
+47            android:exported="true"
+47-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:18:13-36
+48            android:label="@string/app_name"
+48-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:19:13-45
+49            android:theme="@style/Theme.GitHubProfile" >
+49-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:20:13-55
+50            <intent-filter>
+50-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:21:13-25:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:22:17-69
+51-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:22:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:24:17-77
+53-->/Users/abuzaraslam/GithubProfile/app/src/main/AndroidManifest.xml:24:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:21:9-26:52
+57            android:name="com.chuckerteam.chucker.internal.ui.MainActivity"
+57-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:22:13-76
+58            android:label="@string/chucker_name"
+58-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:23:13-49
+59            android:launchMode="singleTask"
+59-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:24:13-44
+60            android:taskAffinity="com.chuckerteam.chucker.task"
+60-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:25:13-64
+61            android:theme="@style/Chucker.Theme" />
+61-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:26:13-49
+62        <activity
+62-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:27:9-30:52
+63            android:name="com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity"
+63-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:28:13-95
+64            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
+64-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:29:13-90
+65            android:theme="@style/Chucker.Theme" />
+65-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:30:13-49
+66
+67        <service
+67-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:32:9-35:72
+68            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseService"
+68-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:33:13-89
+69            android:exported="false"
+69-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:34:13-37
+70            android:permission="android.permission.BIND_JOB_SERVICE" />
+70-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:35:13-69
+71
+72        <receiver
+72-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:37:9-39:40
+73            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseJobIntentServiceReceiver"
+73-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:38:13-106
+74            android:exported="false" />
+74-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:39:13-37
+75
+76        <provider
+76-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:41:9-49:20
+77            android:name="com.chuckerteam.chucker.internal.support.ChuckerFileProvider"
+77-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:42:13-88
+78            android:authorities="home.assignemnt.githubprofile.com.chuckerteam.chucker.provider"
+78-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:43:13-84
+79            android:exported="false"
+79-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:44:13-37
+80            android:grantUriPermissions="true" >
+80-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:45:13-47
+81            <meta-data
+81-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:46:13-48:66
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:47:17-67
+83                android:resource="@xml/chucker_provider_paths" />
+83-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/AndroidManifest.xml:48:17-63
+84        </provider>
+85
+86        <activity
+86-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/38b30c0360c74e8ec80ab38a988eec45/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+87            android:name="androidx.compose.ui.tooling.PreviewActivity"
+87-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/38b30c0360c74e8ec80ab38a988eec45/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+88            android:exported="true" />
+88-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/38b30c0360c74e8ec80ab38a988eec45/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+89        <activity
+89-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/29816592459ac4520ec1e12860a2d048/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:23:9-25:39
+90            android:name="androidx.activity.ComponentActivity"
+90-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/29816592459ac4520ec1e12860a2d048/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:24:13-63
+91            android:exported="true" />
+91-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/abuzaraslam/.gradle/caches/transforms-4/29816592459ac4520ec1e12860a2d048/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:25:13-36
+92
+93        <provider
+93-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/cf6b4ab7221e97139155dbc6ba37bb93/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+94            android:name="androidx.startup.InitializationProvider"
+94-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/cf6b4ab7221e97139155dbc6ba37bb93/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+95            android:authorities="home.assignemnt.githubprofile.androidx-startup"
+95-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/cf6b4ab7221e97139155dbc6ba37bb93/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+96            android:exported="false" >
+96-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/cf6b4ab7221e97139155dbc6ba37bb93/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+97            <meta-data
+97-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/cf6b4ab7221e97139155dbc6ba37bb93/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+98-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/cf6b4ab7221e97139155dbc6ba37bb93/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+99                android:value="androidx.startup" />
+99-->[androidx.emoji2:emoji2:1.3.0] /Users/abuzaraslam/.gradle/caches/transforms-4/cf6b4ab7221e97139155dbc6ba37bb93/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+100            <meta-data
+100-->[androidx.lifecycle:lifecycle-process:2.8.2] /Users/abuzaraslam/.gradle/caches/transforms-4/ea07d5f6fa078b14b7ea0d45e1d69c3b/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+101-->[androidx.lifecycle:lifecycle-process:2.8.2] /Users/abuzaraslam/.gradle/caches/transforms-4/ea07d5f6fa078b14b7ea0d45e1d69c3b/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:30:17-78
+102                android:value="androidx.startup" />
+102-->[androidx.lifecycle:lifecycle-process:2.8.2] /Users/abuzaraslam/.gradle/caches/transforms-4/ea07d5f6fa078b14b7ea0d45e1d69c3b/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:31:17-49
+103            <meta-data
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+105                android:value="androidx.startup" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+106        </provider>
+107
+108        <service
+108-->[androidx.room:room-runtime:2.5.2] /Users/abuzaraslam/.gradle/caches/transforms-4/8fedc3dc9fdc89596e34c3795a49c270/transformed/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
+109            android:name="androidx.room.MultiInstanceInvalidationService"
+109-->[androidx.room:room-runtime:2.5.2] /Users/abuzaraslam/.gradle/caches/transforms-4/8fedc3dc9fdc89596e34c3795a49c270/transformed/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
+110            android:directBootAware="true"
+110-->[androidx.room:room-runtime:2.5.2] /Users/abuzaraslam/.gradle/caches/transforms-4/8fedc3dc9fdc89596e34c3795a49c270/transformed/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
+111            android:exported="false" />
+111-->[androidx.room:room-runtime:2.5.2] /Users/abuzaraslam/.gradle/caches/transforms-4/8fedc3dc9fdc89596e34c3795a49c270/transformed/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
+112
+113        <receiver
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+114            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+115            android:directBootAware="false"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+116            android:enabled="true"
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+117            android:exported="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+118            android:permission="android.permission.DUMP" >
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+120                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+123                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+126                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+129                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/abuzaraslam/.gradle/caches/transforms-4/501dfdfe97a38df47775e21a0bf079bd/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+130            </intent-filter>
+131        </receiver>
+132    </application>
+133
+134</manifest>

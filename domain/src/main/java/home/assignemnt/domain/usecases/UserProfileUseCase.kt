@@ -1,6 +1,8 @@
 package home.assignemnt.domain.usecases
 
+import home.assignemnt.domain.model.UserProfileModel
 import home.assignemnt.domain.repository.UserProfileRepository
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
@@ -20,7 +22,7 @@ class UserProfileUseCase @Inject constructor(
      * @param useCache Indicates whether to use the cache for this operation.
      * @return A flow emitting the user's profile data.
      */
-    operator fun invoke(userName: String, useCache: Boolean) = flow {
+    operator fun invoke(userName: String, useCache: Boolean): Flow<UserProfileModel> = flow {
         emit(userProfileRepository.getUserProfile(userName = userName, useCache = useCache))
     }
 }

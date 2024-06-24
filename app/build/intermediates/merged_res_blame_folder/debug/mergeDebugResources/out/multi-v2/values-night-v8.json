@@ -4,24 +4,7 @@
             "outputFile": "home.assignemnt.githubprofile.app-mergeDebugResources-74:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/abuzaraslam/.gradle/caches/transforms-4/3ce85ead19532077a4a4f9e5605b31a6/transformed/appcompat-1.7.0/res/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "27,28,29,30,31,32,33,60",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "1557,1627,1711,1795,1891,1993,2095,5077",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "1622,1706,1790,1886,1988,2090,2184,5161"
-                    }
-                },
-                {
-                    "source": "/Users/abuzaraslam/.gradle/caches/transforms-4/f38fb2763a369a3d72daae8fc9819299/transformed/core-splashscreen-1.2.0-alpha01/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/abuzaraslam/.gradle/caches/transforms-4/32f51542f3ed167cfdc37b46f34d49ad/transformed/core-splashscreen-1.2.0-alpha01/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/abuzaraslam/.gradle/caches/transforms-4/0685760996841a98cc5130ba8f6d865e/transformed/material-1.12.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/abuzaraslam/.gradle/caches/transforms-4/8f331e7cdf1b27fe9c5c255ac72e197b/transformed/material-1.12.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "/Users/abuzaraslam/.gradle/caches/transforms-4/d773276e964d7f5d078df2f42519d858/transformed/library-4.0.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/abuzaraslam/.gradle/caches/transforms-4/97fe4eaaf47a8562c41918793a4611ac/transformed/appcompat-1.7.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "27,28,29,30,31,32,33,60",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "1557,1627,1711,1795,1891,1993,2095,5077",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "1622,1706,1790,1886,1988,2090,2184,5161"
+                    }
+                },
+                {
+                    "source": "/Users/abuzaraslam/.gradle/caches/transforms-4/1f3add52ccafbe87e65e1ce8694590e4/transformed/library-4.0.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

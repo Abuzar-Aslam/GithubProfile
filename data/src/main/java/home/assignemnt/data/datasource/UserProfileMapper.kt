@@ -2,7 +2,7 @@ package home.assignemnt.data.datasource
 
 import home.assignemnt.domain.model.RepositoryModel
 import home.assignemnt.domain.model.UserProfileModel
-import home.assignment.data.UserProfileQuery
+import home.assignment.network.UserProfileQuery
 
 /**
  * Extension function to convert a [UserProfileQuery.User] object to a [UserProfileModel].

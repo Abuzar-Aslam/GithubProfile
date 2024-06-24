@@ -1,8 +1,8 @@
 package home.assignemnt.data.datasource
 
-import home.assignemnt.data.network.GraphQLOperation
 import home.assignemnt.domain.model.UserProfileModel
-import home.assignment.data.UserProfileQuery
+import home.assignemnt.network.graphqlclient.GraphQLOperation
+import home.assignment.network.UserProfileQuery
 
 /**
  * A GraphQL operation to fetch user profile data.

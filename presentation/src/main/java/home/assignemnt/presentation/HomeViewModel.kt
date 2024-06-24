@@ -1,5 +1,6 @@
 package home.assignemnt.presentation
 
+import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -37,7 +38,8 @@ class HomeViewModel @Inject constructor(private val userProfileUseCase: UserProf
      *
      * @param useCache Boolean flag indicating whether to use cached data.
      */
-    private fun fetchUserProfile(useCache: Boolean = true) {
+    @VisibleForTesting
+    fun fetchUserProfile(useCache: Boolean = true) {
         viewModelScope.launch {
             userProfileUseCase(userName = "Abuzar-Aslam", useCache = useCache)
                 .catch {

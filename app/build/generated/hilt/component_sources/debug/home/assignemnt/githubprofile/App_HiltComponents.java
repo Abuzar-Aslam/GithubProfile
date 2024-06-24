@@ -45,6 +45,7 @@ import dagger.hilt.components.SingletonComponent;
 import dagger.hilt.internal.GeneratedComponent;
 import dagger.hilt.migration.DisableInstallInCheck;
 import home.assignemnt.data.di.DataModule;
+import home.assignemnt.network.di.NetworkModule;
 import home.assignemnt.presentation.HomeViewModel_HiltModules;
 import javax.inject.Singleton;
 
@@ -121,7 +122,8 @@ public final class App_HiltComponents {
           ServiceCBuilderModule.class,
           ApplicationContextModule.class,
           DataModule.class,
-          HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule.class
+          HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule.class,
+          NetworkModule.class
       }
   )
   @Singleton

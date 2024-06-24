@@ -39,6 +39,7 @@ import hilt_aggregated_deps._dagger_hilt_android_internal_modules_HiltWrapper_Ac
 import hilt_aggregated_deps._home_assignemnt_data_di_DataModule;
 import hilt_aggregated_deps._home_assignemnt_githubprofile_App_GeneratedInjector;
 import hilt_aggregated_deps._home_assignemnt_githubprofile_MainActivity_GeneratedInjector;
+import hilt_aggregated_deps._home_assignemnt_network_di_NetworkModule;
 import hilt_aggregated_deps._home_assignemnt_presentation_HomeViewModel_HiltModules_BindsModule;
 import hilt_aggregated_deps._home_assignemnt_presentation_HomeViewModel_HiltModules_KeyModule;
 
@@ -84,6 +85,7 @@ import hilt_aggregated_deps._home_assignemnt_presentation_HomeViewModel_HiltModu
         _home_assignemnt_data_di_DataModule.class,
         _home_assignemnt_githubprofile_App_GeneratedInjector.class,
         _home_assignemnt_githubprofile_MainActivity_GeneratedInjector.class,
+        _home_assignemnt_network_di_NetworkModule.class,
         _home_assignemnt_presentation_HomeViewModel_HiltModules_BindsModule.class,
         _home_assignemnt_presentation_HomeViewModel_HiltModules_KeyModule.class
     }

@@ -61,10 +61,17 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.androidx.core.splashscreen)
 
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(platform(libs.androidx.compose.bom))
+    androidTestImplementation(libs.androidx.ui.test.junit4)
+
     implementation(project(":domain"))
     implementation(project(":data"))
     implementation(project(":presentation"))
     implementation(project(":design"))
+    implementation(project(":network"))
 }
 kapt {
     correctErrorTypes = true
