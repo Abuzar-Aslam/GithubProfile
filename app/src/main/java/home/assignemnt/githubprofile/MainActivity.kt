@@ -4,44 +4,31 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import home.assignemnt.githubprofile.ui.theme.GitHubProfileTheme
+import dagger.hilt.android.AndroidEntryPoint
+import home.assignemnt.design.theme.GitHubProfileTheme
+import home.assignemnt.githubprofile.navigation.Navigator
 
-class MainActivity: ComponentActivity() {
+/**
+ * MainActivity is the entry point of the application.
+ *
+ * This activity is responsible for setting up the initial UI and applying the app theme.
+ * It is annotated with @AndroidEntryPoint to integrate Hilt's dependency injection.
+ */
+@AndroidEntryPoint
+class MainActivity : ComponentActivity() {
+
+    /**
+     * Called when the activity is starting. This is where most initialization should go.
+     *
+     * @param savedInstanceState If the activity is being re-initialized after previously being shut down then this Bundle contains the data it most recently supplied in onSaveInstanceState(Bundle). Note: Otherwise it is null.
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             GitHubProfileTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                Navigator()
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    GitHubProfileTheme {
-        Greeting("Android")
     }
 }
